@@ -3,55 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <title>Контакти</title>
+    <link rel="stylesheet" href="../css/style.css">
 </head>
-<body bgcolor="#0f172a" text="#f8fafc" link="#38bdf8" vlink="#c084fc">
+<body>
 
-    <header>
-        <nav>
-            <a href="../index.html"><b>Головна</b></a> | 
-            <a href="gallery.html"><b>Галерея</b></a> | 
-            <a href="contact.html"><b>Контакти</b></a>
+    <header class="main-header">
+        <nav class="nav-menu">
+            <a href="../index.html">Головна</a> | 
+            <a href="gallery.html">Галерея</a> | 
+            <a href="contact.html">Контакти</a>
         </nav>
-        <hr size="2" color="#38bdf8">
+        <hr class="header-line">
     </header>
 
-    <main>
+    <main class="main-content">
 
-        <section>
+        <section id="contacts-intro">
             <h1>Мої контакти</h1>
             <p>Ви можете зв'язатися зі мною за допомогою наступних каналів зв'язку:</p>
         </section>
 
-        <hr size="1" color="#334155">
+        <hr class="section-line">
 
-        <section>
+        <section id="contact-details">
             <h2>Контактні дані</h2>
-            <ul>
+            <ul class="contacts-list">
                 <li><b>Email:</b> <a href="mailto:peremotevg@gmail.com">peremotevg@gmail.com</a></li>
                 <li><b>Telegram:</b> <a href="https://t.me/ez0007" target="_blank">@ez0007</a></li>
                 <li><b>GitHub:</b> <a href="https://github.com/jeyz0r" target="_blank">Переглянути профіль GitHub</a></li>
             </ul>
         </section>
 
-        <hr size="1" color="#334155">
+        <hr class="section-line">
 
-        <section>
+        <section id="feedback-form">
             <h2>Написати мені</h2>
-            <form action="#">
+            <form action="#" class="contact-form">
                 <label for="name">Ваше ім'я:</label><br>
                 <input type="text" id="name" name="name"><br><br>
                 
                 <label for="message">Повідомлення:</label><br>
-                <textarea id="message" name="message" rows="4" cols="40"></textarea><br><br>
+                <textarea id="message" name="message" rows="4"></textarea><br><br>
                 
-                <input type="submit" value="Надіслати">
+                <input type="submit" value="Надіслати" class="submit-btn">
             </form>
         </section>
 
     </main>
 
-    <footer>
-        <hr size="2" color="#38bdf8">
+    <footer class="main-footer">
+        <hr class="footer-line">
         <p><small>&copy; 2026 Євгеній. Усі права захищені.</small></p>
     </footer>
 

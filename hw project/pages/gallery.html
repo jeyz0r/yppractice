@@ -3,50 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <title>Галерея</title>
+    <link rel="stylesheet" href="../css/style.css">
 </head>
-<body bgcolor="#0f172a" text="#f8fafc" link="#38bdf8" vlink="#c084fc">
+<body>
 
-    <header>
-        <nav>
-            <a href="../index.html"><b>Головна</b></a> | 
-            <a href="gallery.html"><b>Галерея</b></a> | 
-            <a href="contact.html"><b>Контакти</b></a>
+    <header class="main-header">
+        <nav class="nav-menu">
+            <a href="../index.html">Головна</a> | 
+            <a href="gallery.html">Галерея</a> | 
+            <a href="contact.html">Контакти</a>
         </nav>
-        <hr size="2" color="#38bdf8">
+        <hr class="header-line">
     </header>
 
-    <main>
-        <section>
+    <main class="main-content">
+        <section id="gallery-intro">
             <h1>Галерея зображень</h1>
             <p>Тут зібрані фотографії моїх захоплень та робочого простору.</p>
         </section>
 
-        <hr size="1" color="#334155">
+        <hr class="section-line">
 
-        <section>
-            <h2>Фотоальбом</h2>
+        <section id="photo-album">
 
-            <article>
+            <article class="gallery-item">
                 <h3>Робоче місце</h3>
-                <img src="../photo/photo1.jpg" alt="Робоче місце" width="320" border="1">
+                <img src="../photo/photo1.jpg" alt="Робоче місце" class="gallery-img">
                 <p><small>Мій сетап для навчання та роботи.</small></p>
             </article>
 
-            <br>
-
-            <article>
+            <article class="gallery-item">
                 <h3>Захоплення та хобі</h3>
-                <img src="../photo/photo2.jpg" alt="Хобі" width="320" border="1">
+                <img src="../photo/photo2.jpg" alt="Хобі" class="gallery-img">
                 <p><small>Навчальний процесс QA.</small></p>
             </article>
-
-            <br>
-
-            <article>
-                <img src="../photo/photo3.jpg" alt="Авто" width="320" border="1">
-                <p><small>Улюблене хобі.</small></p>
+            <article class="gallery-item">
+                <h3>Захоплення та хобі</h3>
+                <img src="../photo/photo3.jpg" alt="Хобі" class="gallery-img">
+                <p><small>Футбол.</small></p>
             </article>
-        </section>
+
+          </section>
 
     </main>
 
